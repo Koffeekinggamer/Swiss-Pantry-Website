@@ -11,7 +11,7 @@ export function HomePage() {
     <>
       <section className="hero">
         <img
-          src="/images/interior.jpg"
+          src={`${import.meta.env.BASE_URL}images/interior.jpg`}
           alt="Inside The Swiss Pantry, with bulk-food shelves and the frozen-food case"
         />
         <div className="hero-card">

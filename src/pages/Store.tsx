@@ -10,7 +10,7 @@ export function StorePage() {
       <h1>The Store</h1>
       <figure className="store-figure">
         <img
-          src="/images/interior.jpg"
+          src={`${import.meta.env.BASE_URL}images/interior.jpg`}
           alt="Bulk-food tubs, jars, and the frozen-food case inside The Swiss Pantry"
         />
       </figure>

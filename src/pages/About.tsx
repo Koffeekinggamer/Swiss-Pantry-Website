@@ -8,7 +8,7 @@ export function AboutPage() {
       <p className="eyebrow">The Masseys</p>
       <h1>About</h1>
       <figure className="family">
-        <img src="/images/massey-family.jpg" alt="The Massey family" />
+        <img src={`${import.meta.env.BASE_URL}images/massey-family.jpg`} alt="The Massey family" />
         <figcaption>The Massey family.</figcaption>
       </figure>
       <p className="lede">
