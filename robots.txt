@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://koffeekinggamer.github.io/Swiss-Pantry-Website/sitemap.xml
